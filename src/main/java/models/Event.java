@@ -1,7 +1,13 @@
 package models;
 
-/**
- * Created by Guest on 1/9/18.
- */
-public class Event {
+public class Event{
+    private String people;
+
+    public Event (String people){
+        this.people=people;
+    }
+
+    public Integer getPeople(Event people){
+        return 0;
+    }
 }
