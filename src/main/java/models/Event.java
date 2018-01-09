@@ -13,8 +13,8 @@ public class Event{
         return "";
     }
 
-    public Integer getFood(){
-        return 0;
+    public String getFood(){
+        return "";
 
     }
 }
