@@ -14,10 +14,13 @@ public class App {
             try {
                 System.out.println("Type 'people' or 'no people'");
                 String peopleString = bufferedReader.readLine();
+                System.out.println("Type 'food' or 'no food'");
+                String foodString = bufferedReader.readLine();
 
-                Event newEvent = new Event(peopleString);
+                Event newEvent = new Event( peopleString , foodString );
 
-                System.out.println(newEvent.getPeople(newEvent));
+                System.out.println(newEvent.getPeople());
+                System.out.println(newEvent.getFood());
 
 
             } catch (IOException e) {
