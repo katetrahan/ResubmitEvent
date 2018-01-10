@@ -18,12 +18,15 @@ public class App {
                 String foodString = bufferedReader.readLine();
                 System.out.println("Type 'booze' or 'no booze'");
                 String boozeString = bufferedReader.readLine();
+                System.out.println("Type 'band' or 'no band'");
+                String bandString = bufferedReader.readLine();
 
-                Event newEvent = new Event( peopleString , foodString , boozeString);
+                Event newEvent = new Event( peopleString , foodString , boozeString, bandString);
 
                 System.out.println(newEvent.getPeople());
                 System.out.println(newEvent.getFood());
                 System.out.println(newEvent.getBooze());
+                System.out.println(newEvent.getEntertainment());
 
 
             } catch (IOException e) {
