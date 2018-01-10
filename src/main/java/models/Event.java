@@ -42,4 +42,9 @@ public class Event {
         return finalCost;
     }
 
+    public void addCost(int increase){
+        finalCost += increase;
+
+    }
+
 }
