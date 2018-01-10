@@ -34,11 +34,6 @@ public class App {
                     System.out.println("You can throw your own event!");
                 }
 
-//
-//                System.out.println(newEvent.getFood(newEvent));
-//                System.out.println(newEvent.getBooze(newEvent));
-//                System.out.println(newEvent.getEntertainment());
-
 
             } catch (IOException e) {
                 e.printStackTrace();

@@ -5,12 +5,14 @@ public class Event {
     private String food;
     private String booze;
     private String entertainment;
+//    private String finalCost;
 
     public Event(String people, String food, String booze, String entertainment) {
         this.people = people;
         this.food = food;
         this.booze = booze;
         this.entertainment = entertainment;
+//        this.finalCost = finalCost;
 
     }
 
@@ -34,4 +36,9 @@ public class Event {
         Integer costBand = 100;
         return costBand;
     }
+
+//    public Integer getFinalCost(){
+//
+//    }
+//}
 }
