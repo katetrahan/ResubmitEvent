@@ -19,27 +19,17 @@ public class Event {
         return cost;
     }
 
-//    public Integer getFood(Event food) {
-//        Integer costFood = 0;
-//        if (food.food.equals("food")) {
-//            costFood = 100;
-//        } else {
-//            costFood = 0;
-//        }
-//        return costFood;
-//
-//    }
-//
-//    public Integer getBooze(Event booze) {
-//        Integer costBooze = 0;
-//        if (booze.booze.equals("booze")) {
-//            costBooze = 100;
-//        } else {
-//            costBooze = 0;
-//        }
-//        return costBooze;
-//    }
-//
+    public Integer getFood() {
+        Integer costFood = 100;
+        return costFood;
+
+    }
+
+    public Integer getBooze() {
+        Integer costBooze = 100;
+        return costBooze;
+    }
+
 //
 //    public String getEntertainment(Event entertainment) {
 //        Integer costBand = 0;

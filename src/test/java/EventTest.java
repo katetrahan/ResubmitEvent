@@ -6,23 +6,23 @@ public class EventTest {
 
     @Test
     public void newEvent_instantiatesCorrectly() throws Exception {
-        Event testEvent = new Event("people", "food", "booze", "band");
+        Event testEvent = new Event();
         assertTrue(testEvent instanceof Event);
     }
 
     @Test
-    public void newEvent_return_String() {
-        Event testEvent = new Event("people", "food", "booze", "band");
-        assertEquals("", testEvent.getPeople());
+    public void newEvent_getsCostOfHavingPeople_Integer() {
+        Event testEvent = new Event();
+        assertEquals(100, testEvent.getPeople());
 
    }
-//
-//    @Test
-//    public void newEvent_acceptsFood_String() {
-//        Event testEvent = new Event ("people", "food", "booze", "band");
-//        assertEquals("", testEvent.getFood());
-//    }
-//
+
+    @Test
+    public void newEvent_getCostOfHavingFood_Integer() {
+        Event testEvent = new Event ();
+        assertEquals(100, testEvent.getFood());
+    }
+
 //    @Test
 //    public void newEvent_acceptsBooze_String(){
 //        Event testEvent = new Event ("people", "food", "booze", "band");
