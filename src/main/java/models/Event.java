@@ -16,29 +16,29 @@ public class Event {
 
     }
 
-    public int getPeople() {
-        int cost = 100;
-        return cost;
-    }
+//    public int getPeople() {
+//
+//        return cost;
+//    }
 
-    public int getFood() {
-        int costFood = 100;
-        return costFood;
+//    public int getFood() {
+//
+//        return costFood;
+//
+//    }
 
-    }
+//    public int getBooze() {
+//
+//        return costBooze;
+//    }
 
-    public int getBooze() {
-        int costBooze = 100;
-        return costBooze;
-    }
-
-    public int getEntertainment() {
-        int costBand = 100;
-        return costBand;
-    }
+//    public int getEntertainment() {
+//
+//        return costBand;
+//    }
 
     public int getFinalCost() {
-        int finalCost = getPeople() + getFood() + getBooze() + getEntertainment();
+//        int finalCost = getPeople() + getFood() + getBooze() + getEntertainment();
         return finalCost;
     }
 
