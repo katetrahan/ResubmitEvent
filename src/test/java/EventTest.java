@@ -10,12 +10,12 @@ public class EventTest {
         assertTrue(testEvent instanceof Event);
     }
 
-//    @Test
-//    public void newEvent_acceptsPeople_String() {
-//        Event testEvent = new Event("people", "food", "booze", "band");
-//        assertEquals("", testEvent.getPeople());
-//
-////    }
+    @Test
+    public void newEvent_return_String() {
+        Event testEvent = new Event("people", "food", "booze", "band");
+        assertEquals("", testEvent.getPeople());
+
+   }
 //
 //    @Test
 //    public void newEvent_acceptsFood_String() {
