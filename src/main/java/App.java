@@ -23,10 +23,15 @@ public class App {
 
                 Event newEvent = new Event( peopleString , foodString , boozeString, bandString);
 
-                System.out.println(newEvent.getPeople(newEvent));
-                System.out.println(newEvent.getFood(newEvent));
-                System.out.println(newEvent.getBooze(newEvent));
-                System.out.println(newEvent.getEntertainment());
+
+                if(peopleString.equals("people")){
+                    System.out.println(newEvent.getPeople());
+                }
+
+//
+//                System.out.println(newEvent.getFood(newEvent));
+//                System.out.println(newEvent.getBooze(newEvent));
+//                System.out.println(newEvent.getEntertainment());
 
 
             } catch (IOException e) {
