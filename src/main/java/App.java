@@ -21,25 +21,31 @@ public class App {
                 System.out.println("Type 'band' or 'no band'");
                 String bandString = bufferedReader.readLine();
 
-                Event newEvent = new Event( peopleString , foodString , boozeString, bandString);
+                Event newEvent = new Event(peopleString, foodString, boozeString, bandString);
 
 
-                if(peopleString.equals("people") && foodString.equals("food") && (boozeString.equals("booze") && (bandString.equals("band")))){
-                    newEvent.addCost(50);
-
-//                    System.out.println(newEvent.getFood());
-//                    System.out.println(newEvent.getBooze());
-//                    System.out.println(newEvent.getEntertainment());
-                    System.out.println(newEvent.getFinalCost());
-
-                } else {
-                    System.out.println("You can throw your own event!");
+                if (peopleString.equals("people")) {
+                    newEvent.addCost(100);
                 }
+                if (foodString.equals("food")) {
+                    newEvent.addCost(200);
+                }
+                if (boozeString.equals("booze")) {
+                    newEvent.addCost(300);
+                }
+                if (bandString.equals("band")) {
+                    newEvent.addCost(200);
+                }
+                System.out.println(newEvent.getFinalCost());
 
 
-            } catch (IOException e) {
+
+
+            } catch (IOException e){
                 e.printStackTrace();
+
             }
+
         }
     }
 }
