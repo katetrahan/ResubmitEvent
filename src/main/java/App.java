@@ -29,6 +29,7 @@ public class App {
                     System.out.println(newEvent.getFood());
                     System.out.println(newEvent.getBooze());
                     System.out.println(newEvent.getEntertainment());
+                    System.out.println(newEvent.getFinalCost());
 
                 } else {
                     System.out.println("You can throw your own event!");
