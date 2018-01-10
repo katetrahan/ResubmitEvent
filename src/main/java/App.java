@@ -16,11 +16,14 @@ public class App {
                 String peopleString = bufferedReader.readLine();
                 System.out.println("Type 'food' or 'no food'");
                 String foodString = bufferedReader.readLine();
+                System.out.println("Type 'booze' or 'no booze'");
+                String boozeString = bufferedReader.readLine();
 
-                Event newEvent = new Event( peopleString , foodString );
+                Event newEvent = new Event( peopleString , foodString , boozeString);
 
                 System.out.println(newEvent.getPeople());
                 System.out.println(newEvent.getFood());
+                System.out.println(newEvent.getBooze());
 
 
             } catch (IOException e) {
