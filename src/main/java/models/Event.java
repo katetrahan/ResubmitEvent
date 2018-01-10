@@ -30,14 +30,8 @@ public class Event {
         return costBooze;
     }
 
-//
-//    public String getEntertainment(Event entertainment) {
-//        Integer costBand = 0;
-//        if (entertainment.entertainment.equals("band")) {
-//            costBand = 100;
-//        } else {
-//            costBand = 0;
-//        }
-//        return costBand;
-//    }
+    public Integer getEntertainment() {
+        Integer costBand = 100;
+        return costBand;
+    }
 }

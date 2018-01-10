@@ -24,10 +24,11 @@ public class App {
                 Event newEvent = new Event( peopleString , foodString , boozeString, bandString);
 
 
-                if(peopleString.equals("people") && foodString.equals("food") && (boozeString.equals("booze"))){
+                if(peopleString.equals("people") && foodString.equals("food") && (boozeString.equals("booze") && (bandString.equals("band")))){
                     System.out.println(newEvent.getPeople());
                     System.out.println(newEvent.getFood());
                     System.out.println(newEvent.getBooze());
+                    System.out.println(newEvent.getEntertainment());
 
                 } else {
                     System.out.println("You can throw your own event!");

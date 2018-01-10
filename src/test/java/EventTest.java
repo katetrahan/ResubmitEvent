@@ -23,11 +23,11 @@ public class EventTest {
         assertEquals(100, testEvent.getFood());
     }
 
-//    @Test
-//    public void newEvent_acceptsBooze_String(){
-//        Event testEvent = new Event ("people", "food", "booze", "band");
-//        assertEquals("", testEvent.getBooze());
-//    }
+    @Test
+    public void newEvent_getCostOfHavingBooze_Integer(){
+        Event testEvent = new Event ();
+        assertEquals(100, testEvent.getBooze());
+    }
 //
 //    @Test
 //    public void newEvent_acceptsBand_String(){
