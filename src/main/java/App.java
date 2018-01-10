@@ -23,8 +23,8 @@ public class App {
 
                 Event newEvent = new Event( peopleString , foodString , boozeString, bandString);
 
-                System.out.println(newEvent.getPeople());
-                System.out.println(newEvent.getFood());
+                System.out.println(newEvent.getPeople(newEvent));
+                System.out.println(newEvent.getFood(newEvent));
                 System.out.println(newEvent.getBooze());
                 System.out.println(newEvent.getEntertainment());
 

@@ -35,5 +35,12 @@ public class EventTest {
         assertEquals("", testEvent.getEntertainment());
     }
 
+    @Test
+    public void newEvent_returnCost_Integer(){
+        Event testEvent = new Event ("people", "food", "booze", "band");
+        assertEquals(100, testEvent.getPeople());
+
+    }
+
 
 }
