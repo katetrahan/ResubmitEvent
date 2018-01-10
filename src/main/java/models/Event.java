@@ -35,9 +35,16 @@ public class Event{
 
     }
 
-    public String getBooze(){
-        return "";
-    }
+    public Integer getBooze(Event booze){
+        Integer costBooze = 0;
+        if (booze.booze.equals("booze")) {
+            costBooze = 100;
+        } else {
+                costBooze = 0;
+        }
+        return costBooze;
+        }
+
 
     public String getEntertainment(){
         return "";

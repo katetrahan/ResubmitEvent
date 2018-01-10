@@ -25,7 +25,7 @@ public class App {
 
                 System.out.println(newEvent.getPeople(newEvent));
                 System.out.println(newEvent.getFood(newEvent));
-                System.out.println(newEvent.getBooze());
+                System.out.println(newEvent.getBooze(newEvent));
                 System.out.println(newEvent.getEntertainment());
 
 
