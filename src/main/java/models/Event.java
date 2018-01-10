@@ -16,29 +16,8 @@ public class Event {
 
     }
 
-//    public int getPeople() {
-//
-//        return cost;
-//    }
-
-//    public int getFood() {
-//
-//        return costFood;
-//
-//    }
-
-//    public int getBooze() {
-//
-//        return costBooze;
-//    }
-
-//    public int getEntertainment() {
-//
-//        return costBand;
-//    }
 
     public int getFinalCost() {
-//        int finalCost = getPeople() + getFood() + getBooze() + getEntertainment();
         return finalCost;
     }
 
