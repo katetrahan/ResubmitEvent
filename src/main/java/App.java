@@ -25,31 +25,32 @@ public class App {
 
 
             if (peopleString.equals("people")) {
-                System.out.println("Cost of People:");
-                System.out.println(newEvent.getPeopleCost());
+                System.out.println("Cost of People: $100");
+                newEvent.addPeopleCost();
             } if (peopleString.equals("no people")){
-                System.out.println("Cost of People:");
-                System.out.println(newEvent.getNoPeopleCost());
+                System.out.println("Cost of People: $0");
+                newEvent.addNoPeopleCost();
             } if (foodString.equals("food")) {
-                    System.out.println("Cost of Food:");
-                    System.out.println(newEvent.getFoodCost());
+                System.out.println("Cost of Food: $200");
+                newEvent.addFoodCost();
             } if (foodString.equals("no food")){
-                System.out.println("Cost of Food:");
-                System.out.println(newEvent.getNoFoodCost());
+                System.out.println("Cost of Food: $0");
+                newEvent.addNoFoodCost();
             } if (boozeString.equals("booze")) {
-                    System.out.println("Cost of Booze:");
-                    System.out.println(newEvent.getBoozeCost());
+                System.out.println("Cost of Booze: $300");
+                newEvent.addBoozeCost();
             } if (boozeString.equals("no booze")){
-                    System.out.println("Cost of Booze:");
-                System.out.println(newEvent.getNoBoozeCost());
+                System.out.println("Cost of Booze: $0");
+                newEvent.addNoBoozeCost();
             } if (bandString.equals("band")){
-                System.out.println("Cost of Band:");
-                System.out.println(newEvent.getBandCost());
+                System.out.println("Cost of Band: $300");
+                newEvent.addBandCost();
             } if(bandString.equals("no band")) {
-                    System.out.println("Cost of Band:");
-                    System.out.println(newEvent.getNoBandCost());
+                System.out.println("Cost of Band: $0");
+                newEvent.addNoBandCost();
+            }
                     System.out.println("Final Cost:");
-            }   System.out.println(newEvent.getFinalCost());
+               System.out.println(newEvent.getFinalCost());
 
 
 

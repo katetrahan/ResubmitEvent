@@ -13,14 +13,14 @@ public class EventTest {
     @Test
     public void people_addPeopleCost_Integer() throws Exception {
         Event testEvent = new Event("", "", "", "");
-        assertEquals(100,testEvent.getPeopleCost());
+        assertEquals(100,testEvent.addPeopleCost());
 
     }
 
     @Test
     public void food_addFoodCost_Integer() throws Exception {
         Event testEvent = new Event("", "", "", "");
-        assertEquals(200,testEvent.getFoodCost());
+        assertEquals(200,testEvent.addFoodCost());
 
 
     }
@@ -28,20 +28,29 @@ public class EventTest {
     @Test
     public void booze_addBoozeCost_Integer() throws Exception {
         Event testEvent = new Event("", "", "", "");
-        assertEquals(300, testEvent.getBoozeCost());
+        assertEquals(300, testEvent.addBoozeCost());
     }
 
     @Test
     public void entertainment_addBandCost_Integer() throws Exception {
         Event testEvent = new Event("", "", "", "");
-        assertEquals(300, testEvent.getBandCost());
+        assertEquals(300, testEvent.addBandCost());
 
     }
 
     @Test
     public void final_addFinalCost_Integer() throws Exception {
         Event testEvent = new Event("", "", "", "");
-        assertEquals(600,testEvent.getFinalCost());
+        assertEquals(0,testEvent.getFinalCost());
+    }
+
+    @Test
+    public void coupon_addFinalCoupon_Integer() throws Exception{
+        Event testEvent = new Event("", "", "", "");
+        testEvent.addBoozeCost();
+        testEvent.addCoupon();
+        assertEquals(250,testEvent.getFinalCost());
+
     }
 
 

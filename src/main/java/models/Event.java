@@ -28,50 +28,53 @@ public class Event {
 
 
 
-    public int getPeopleCost(){
+    public int addPeopleCost(){
 //        int group = getGroup;
         return finalCost += 100;
     }
 
-    public int getNoPeopleCost(){
-        return lamePartyCost;
+    public int addNoPeopleCost(){
+        return finalCost;
     }
 
-    public int getFoodCost(){
+    public int addFoodCost(){
 //        int yummy = getYummy;
         return finalCost += 200;
     }
 
-    public int getNoFoodCost(){
-        return lamePartyCost;
+    public int addNoFoodCost(){
+        return finalCost;
 
     }
 
-    public int getBoozeCost(){
+    public int addBoozeCost(){
 //        int drunk = getDrunk;
         return finalCost += 300;
     }
 
-    public int getNoBoozeCost(){
-        return lamePartyCost;
+    public int addNoBoozeCost(){
+
+        return finalCost;
     }
 
-    public int getBandCost(){
+    public int addBandCost(){
 //        int music = getBand;
         return finalCost += 300;
     }
 
-    public int getNoBandCost(){
-        return lamePartyCost;
-    }
+    public int addNoBandCost(){
 
-    public int getFinalCost(){
         return finalCost;
     }
 
-    public void addCost(int increase){
-        finalCost += increase;
+    public int getFinalCost(){
 
+        return finalCost;
     }
+
+    public int addCoupon(){
+        return finalCost -= 50;
+    }
+
 
 }
