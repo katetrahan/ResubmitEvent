@@ -18,9 +18,18 @@ public class Event {
 
     public int getGroup = 0;
 
+    public int getYummy = 0;
+
+    public int getFoodCost = 0;
+
     public int getPeopleCost(){
         int group = getGroup;
         return getGroup += 100;
+    }
+
+    public int getFoodCost(){
+        int yummy = getYummy;
+        return getYummy += 200;
     }
 
 

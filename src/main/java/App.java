@@ -26,7 +26,9 @@ public class App {
 
             if (peopleString.equals("people")){
                 System.out.println(newEvent.getPeopleCost());
-            }
+            } if (foodString.equals("food")){
+                System.out.println(newEvent.getFoodCost());
+                }
 
 
 
