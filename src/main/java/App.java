@@ -24,7 +24,9 @@ public class App {
                 Event newEvent = new Event(peopleString, foodString, boozeString, bandString);
 
 
-
+            if (peopleString.equals("people")){
+                System.out.println(newEvent.getPeopleCost());
+            }
 
 
 

@@ -11,9 +11,17 @@ public class EventTest {
     }
 
     @Test
-    public void peopleCost_addPeopleCost_Integer() throws Exception{
+    public void peopleCost_addPeopleCost_Integer() throws Exception {
         Event testEvent = new Event("", "", "", "");
         assertEquals(100,testEvent.getPeopleCost());
+
+    }
+
+    @Test
+    public void foodCost_addFoodCost_Integer() throws Exception {
+        Event testEvent = new Event("", "", "", "");
+        assertEquals(100,testEvent.getFoodCost());
+
 
     }
 
