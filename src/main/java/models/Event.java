@@ -20,7 +20,9 @@ public class Event {
 
     public int getYummy = 0;
 
-    public int getFoodCost = 0;
+    public int getDrunk = 0;
+
+
 
     public int getPeopleCost(){
         int group = getGroup;
@@ -30,6 +32,11 @@ public class Event {
     public int getFoodCost(){
         int yummy = getYummy;
         return getYummy += 200;
+    }
+
+    public int getBoozeCost(){
+        int drunk = getDrunk;
+        return getDrunk += 300;
     }
 
 

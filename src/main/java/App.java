@@ -28,7 +28,9 @@ public class App {
                 System.out.println(newEvent.getPeopleCost());
             } if (foodString.equals("food")){
                 System.out.println(newEvent.getFoodCost());
-                }
+            } if (boozeString.equals("booze")){
+                System.out.println(newEvent.getBoozeCost());
+            }
 
 
 
