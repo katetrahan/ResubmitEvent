@@ -24,13 +24,23 @@ public class App {
                 Event newEvent = new Event(peopleString, foodString, boozeString, bandString);
 
 
-            if (peopleString.equals("people")){
+            if (peopleString.equals("people")) {
                 System.out.println(newEvent.getPeopleCost());
-            } if (foodString.equals("food")){
-                System.out.println(newEvent.getFoodCost());
-            } if (boozeString.equals("booze")){
-                System.out.println(newEvent.getBoozeCost());
-            }
+            } if (peopleString.equals("no people")){
+                System.out.println(newEvent.getNoPeopleCost());
+            } if (foodString.equals("food")) {
+                    System.out.println(newEvent.getFoodCost());
+            } if (foodString.equals("no food")){
+                System.out.println(newEvent.getNoFoodCost());
+            } if (boozeString.equals("booze")) {
+                    System.out.println(newEvent.getBoozeCost());
+            } if (boozeString.equals("no booze")){
+                System.out.println(newEvent.getNoBoozeCost());
+            } if (bandString.equals("band")){
+                System.out.println(newEvent.getBandCost());
+            } if(bandString.equals("no band")){
+                System.out.println(newEvent.getNoBandCost());
+                }
 
 
 

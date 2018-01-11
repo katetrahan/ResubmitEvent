@@ -31,6 +31,15 @@ public class EventTest {
         assertEquals(300, testEvent.getBoozeCost());
     }
 
+    @Test
+    public void entertainment_addBandCost_Integer() throws Exception {
+        Event testEvent = new Event("", "", "", "");
+        assertEquals(300, testEvent.getBandCost());
+
+    }
+
+
+
 //    @Test
 //    public void newEvent_addCost() throws Exception {
 //        Event testEvent = new Event("", "", "", "");

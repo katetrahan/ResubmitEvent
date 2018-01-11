@@ -22,6 +22,8 @@ public class Event {
 
     public int getDrunk = 0;
 
+    public int getBand = 0;
+
 
 
     public int getPeopleCost(){
@@ -29,14 +31,36 @@ public class Event {
         return getGroup += 100;
     }
 
+    public int getNoPeopleCost(){
+        return getGroup;
+    }
+
     public int getFoodCost(){
         int yummy = getYummy;
         return getYummy += 200;
     }
 
+    public int getNoFoodCost(){
+        return getYummy;
+
+    }
+
     public int getBoozeCost(){
         int drunk = getDrunk;
         return getDrunk += 300;
+    }
+
+    public int getNoBoozeCost(){
+        return getDrunk;
+    }
+
+    public int getBandCost(){
+        int music = getBand;
+        return getBand += 300;
+    }
+
+    public int getNoBandCost(){
+        return getBand;
     }
 
 
