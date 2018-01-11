@@ -17,6 +17,7 @@ public class Event {
     }
 
 
+
     public int getFinalCost() {
         return finalCost;
     }

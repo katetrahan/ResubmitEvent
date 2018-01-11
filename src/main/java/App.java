@@ -24,19 +24,6 @@ public class App {
                 Event newEvent = new Event(peopleString, foodString, boozeString, bandString);
 
 
-                if (peopleString.equals("people")) {
-                    newEvent.addCost(100);
-                }
-                if (foodString.equals("food")) {
-                    newEvent.addCost(200);
-                }
-                if (boozeString.equals("booze")) {
-                    newEvent.addCost(300);
-                }
-                if (bandString.equals("band")) {
-                    newEvent.addCost(200);
-                }
-                System.out.println(newEvent.getFinalCost());
 
 
 

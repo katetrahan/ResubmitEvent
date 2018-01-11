@@ -11,12 +11,19 @@ public class EventTest {
     }
 
     @Test
-    public void newEvent_addCost() throws Exception {
+    public void peopleCost_addPeopleCost_Integer() throws Exception{
         Event testEvent = new Event("", "", "", "");
-        testEvent.addCost(1);
-        assertEquals(1, testEvent.getFinalCost());
+        assertEquals(100,testEvent.getPeopleCost());
 
     }
+
+//    @Test
+//    public void newEvent_addCost() throws Exception {
+//        Event testEvent = new Event("", "", "", "");
+//        testEvent.addCost(1);
+//        assertEquals(1, testEvent.getFinalCost());
+//
+//    }
 
 //    @Test
 //    public void newEvent_getsCostOfHavingPeople_Integer() {
