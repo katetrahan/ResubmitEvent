@@ -16,6 +16,13 @@ public class Event {
 
     }
 
+    public int getGroup = 0;
+
+    public int getPeopleCost(){
+        int group = getGroup;
+        return getGroup += 100;
+    }
+
 
 
     public int getFinalCost() {
