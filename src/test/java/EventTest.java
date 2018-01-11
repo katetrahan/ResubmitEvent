@@ -38,6 +38,14 @@ public class EventTest {
 
     }
 
+    @Test
+    public void final_addFinalCost_Integer() throws Exception {
+        Event testEvent = new Event("", "", "", "");
+        assertEquals(600,testEvent.getFinalCost());
+    }
+
+
+
 
 
 //    @Test
@@ -47,44 +55,5 @@ public class EventTest {
 //        assertEquals(1, testEvent.getFinalCost());
 //
 //    }
-
-//    @Test
-//    public void newEvent_getsCostOfHavingPeople_Integer() {
-//        Event testEvent = new Event("", "", "", "");
-//        assertEquals(100, testEvent.getPeople());
-//
-//   }
-//
-//    @Test
-//    public void newEvent_getCostOfHavingFood_Integer() {
-//        Event testEvent = new Event("", "", "", "");
-//        assertEquals(100, testEvent.getFood());
-//    }
-//
-//    @Test
-//    public void newEvent_getCostOfHavingBooze_Integer(){
-//        Event testEvent = new Event("", "", "", "");
-//        assertEquals(100, testEvent.getBooze());
-//    }
-//
-//    @Test
-//    public void newEvent_getFinalCost_Integer(){
-//        Event testEvent = new Event("", "", "", "");
-//        assertEquals(400, testEvent.getFinalCost());
-//    }
-////
-////    @Test
-////    public void newEvent_acceptsBand_String(){
-//        Event testEvent = new Event ("people", "food", "booze", "band");
-//        assertEquals("", testEvent.getEntertainment());
-//    }
-//
-//    @Test
-//    public void newEvent_returnCost_Integer(){
-//        Event testEvent = new Event ("people", "food", "booze", "band");
-//        assertEquals(100, testEvent.getPeople());
-//
-//    }
-
 
     }

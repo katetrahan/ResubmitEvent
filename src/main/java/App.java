@@ -25,22 +25,33 @@ public class App {
 
 
             if (peopleString.equals("people")) {
+                System.out.println("Cost of People:");
                 System.out.println(newEvent.getPeopleCost());
             } if (peopleString.equals("no people")){
+                System.out.println("Cost of People:");
                 System.out.println(newEvent.getNoPeopleCost());
             } if (foodString.equals("food")) {
+                    System.out.println("Cost of Food:");
                     System.out.println(newEvent.getFoodCost());
             } if (foodString.equals("no food")){
+                System.out.println("Cost of Food:");
                 System.out.println(newEvent.getNoFoodCost());
             } if (boozeString.equals("booze")) {
+                    System.out.println("Cost of Booze:");
                     System.out.println(newEvent.getBoozeCost());
             } if (boozeString.equals("no booze")){
+                    System.out.println("Cost of Booze:");
                 System.out.println(newEvent.getNoBoozeCost());
             } if (bandString.equals("band")){
+                System.out.println("Cost of Band:");
                 System.out.println(newEvent.getBandCost());
-            } if(bandString.equals("no band")){
-                System.out.println(newEvent.getNoBandCost());
-                }
+            } if(bandString.equals("no band")) {
+                    System.out.println("Cost of Band:");
+                    System.out.println(newEvent.getNoBandCost());
+                    System.out.println("Final Cost:");
+            }   System.out.println(newEvent.getFinalCost());
+
+
 
 
 
